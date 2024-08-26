@@ -1,19 +1,33 @@
-# Login Page
+<!-- Projeto Finalizado -->
+# 🔒 Login Page
+
+<p align="center">
+  <!-- Contador de linguagens do GitHub -->
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/devAndreotti/responsive-login?color=FFF&labelColor=76fdbe&style=flat-square">
+  <!-- Tamanho do repositório no GitHub -->
+  <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/devAndreotti/responsive-login?color=FFF&labelColor=76fdbe&style=flat-square">
+  <!-- Licença do GitHub -->
+  <img alt="GitHub License" src="https://img.shields.io/github/license/devAndreotti/devAndreotti?color=FFF&labelColor=76fdbe&style=flat-square">
+</p>
 
 <div align="center">
-  <img src="URL_DA_IMAGEM" alt="Login Page Banner" width="800" height="500"/>
+  <img src="login.png" alt="Login Banner"/>
 </div>
 
-## Descrição do Projeto
+## 📝 Descrição do Projeto
 
 Página de login responsiva com layout dividido em duas seções: uma com uma imagem de animação e outra com o formulário de login. Utiliza HTML e CSS para a estrutura e estilos.
 
-## Tecnologias Empregadas
+## 🛠️ Tecnologias Empregadas
 
 - **HTML5**: Estrutura da página.
 - **CSS3**: Estilos e responsividade da página.
 
-## Como Executar
+## 🔍 Visualize o Projeto
+
+Confira o projeto online através deste [link](https://devandreotti.github.io/responsive-login/).
+
+## 🚀 Como Executar
 
 1. Clone o repositório:
    ```bash
@@ -21,12 +35,7 @@ Página de login responsiva com layout dividido em duas seções: uma com uma im
    ```
 2. Abra o arquivo `index.html` no navegador.
 
-## Estrutura do Projeto
-
-- `index.html`: Contém a estrutura HTML da página de login.
-- `css/style.css`: Define os estilos e a responsividade da página.
-
-## Contribuição
+## 💪 Contribuição
 
 Contribuições são bem-vindas! Para contribuir, siga estas etapas:
 
@@ -36,6 +45,6 @@ Contribuições são bem-vindas! Para contribuir, siga estas etapas:
 4. Envie para a branch `git push origin feature/nome-feature`.
 5. Abra um Pull Request.
 
-## Nota
+## 📌 Nota
 
 Este projeto é para fins educacionais e demonstra uma página de login estilizada e responsiva. Sinta-se à vontade para explorar e adaptar conforme necessário.
