@@ -17,8 +17,8 @@
 Página de login responsiva com layout dividido em duas seções: uma com uma imagem de animação e outra com o formulário de login. Utiliza HTML e CSS para a estrutura e estilos.
 
 ## 🛠️ Tecnologias Empregadas
-- **HTML5**: Estrutura da página.
-- **CSS3**: Estilos e responsividade da página.
+- **HTML**: Estrutura da página.
+- **CSS**: Estilos e responsividade da página.
 
 ## 🔍 Visualize o Projeto
 Confira o projeto online através deste [link](https://devandreotti.github.io/responsive-login/).
@@ -40,3 +40,8 @@ Contribuições são bem-vindas! Para contribuir, siga estas etapas:
 
 ## 📌 Nota
 Este projeto é para fins educacionais e demonstra uma página de login estilizada e responsiva. Sinta-se à vontade para explorar e adaptar conforme necessário.
+
+<br>
+
+---
+<p align="center"> Desenvolvido por <a href="https://github.com/devAndreotti">Ricardo Andreotti Gonçalves</a> </p>
