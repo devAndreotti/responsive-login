@@ -18,13 +18,13 @@ body {
 body {
     margin: 0;
     font-family: "Noto Sans", sans-serif;
-    overflow: hidden; /* Desativa as barras de rolagem X e Y */
+    overflow-x: hidden; /* Sem rolagem horizontal; a vertical fica ativa quando o conteúdo não cabe */
 }
 
 
 .main-login {
     width: 100vw; /* largura máxima 1000px */
-    height: 100vh;
+    min-height: 100vh;
     background: #201b2c;
     display: flex; /* ficar lado a lado */
     justify-content: center; /* centraliza as coisas no eixo x */
@@ -33,7 +33,7 @@ body {
 
 .left-login {
     width: 50vw;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -52,7 +52,7 @@ body {
 
 .right-login {
     width: 50vw;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -107,6 +107,10 @@ body {
     color: #f0ffff94;
 }
 
+.textfield > input:focus {
+    box-shadow: 0px 0px 0px 2px #00ff88; /* indica o campo em foco (outline foi removido acima) */
+}
+
 .btn-login {
     width: 100%;
     padding: 16px 0px;
@@ -134,6 +138,7 @@ body {
 @media only screen and (max-width: 600px) {
     .main-login {
         flex-direction: column;
+        padding: 24px 0;
     }
 
     .left-login > h1 {
@@ -142,12 +147,15 @@ body {
 
     .left-login {
         width: 100%;
+        min-height: 0;
         height: auto;
     }
 
     .right-login {
         width: 100%;
+        min-height: 0;
         height: auto;
+        padding: 16px 0;
     }
 
     .left-login-image {
